@@ -1,27 +1,29 @@
 {
-	"name": "appetizer-api",
-	"version": "1.0.0",
-	"description": "Dummy Api for Appetizer APP",
-	"author": "",
-	"data": [{
-			"path": "/",
-			"resource": "https://example.com/wp-json/wp/v2/pages/1",
-			"template": "page"
-		},
-		{
-			"path": "/chi-siamo",
-			"resource": "https://example.com/wp-json/wp/v2/pages/2",
-			"template": "page"
-		},
-		{
-			"path": "/news",
-			"resource": "https://example.com/wp-json/wp/v2/categories/1",
-			"template": "category"
-		},
-		{
-			"path": "/news/hello",
-			"resource": "https://example.com/wp-json/wp/v2/posts/1",
-			"template": "post"
-		}
-	]
+	"sitemap": {
+		"name": "appetizer-api",
+		"version": "1.0.0",
+		"description": "Dummy Api for Appetizer APP",
+		"author": "",
+		"data": [{
+				"path": "/",
+				"resource": "https://example.com/wp-json/wp/v2/pages/1",
+				"template": "page"
+			},
+			{
+				"path": "/chi-siamo",
+				"resource": "https://example.com/wp-json/wp/v2/pages/2",
+				"template": "page"
+			},
+			{
+				"path": "/news",
+				"resource": "https://example.com/wp-json/wp/v2/categories/1",
+				"template": "category"
+			},
+			{
+				"path": "/news/hello",
+				"resource": "https://example.com/wp-json/wp/v2/posts/1",
+				"template": "post"
+			}
+		]
+	}
 }
